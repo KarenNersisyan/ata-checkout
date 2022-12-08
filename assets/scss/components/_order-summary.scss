@@ -1,0 +1,37 @@
+.summary-details {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid $color-border;
+    background-color: $gray-bg-color;
+
+    li {
+        width: 100%;
+        display: flex;
+        padding: 10px 15px;
+        align-items: center;
+
+        span, p, strong {
+            font-weight: 500;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        p {
+            color: $color-gray;
+        }
+
+        &:not(.note) {
+            justify-content: space-between;
+        }
+
+        &.note {
+            justify-content: center;
+            border-top: 1px solid $color-border;
+        }
+
+        &.total {
+            justify-content: space-between;
+            border-top: 1px solid $color-border;
+        }
+    }
+}

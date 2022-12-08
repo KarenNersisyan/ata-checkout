@@ -1,0 +1,23 @@
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.card {
+    padding: 50px 100px 70px;
+    background-color: #fff;
+    border-radius: $radius-md;
+    border: 1px solid $color-border;
+
+    &.mt-md {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .card {
+        padding: 25px;
+    }
+}

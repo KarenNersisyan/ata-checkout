@@ -1,0 +1,46 @@
+.credit-card-wrapper {
+    display: flex;
+    cursor: pointer;
+    padding: 10px 15px;
+    align-items: center;
+    transition: all 0.1s;
+    border-radius: $radius-md;
+    border: 2px solid $color-border;
+
+    img {
+        width: 50px;
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .card-details {
+        display: flex;
+        align-items: center;
+        width: calc(100% - 85px);
+        justify-content: space-between;
+
+        strong {
+            font-weight: 500;
+            letter-spacing: 0.2px;
+        }
+
+        span {
+            font-size: 14px;
+            color: $color-gray;
+        }
+    }
+}
+
+.credit-card-item {
+    input {
+        display: none;
+
+        &:checked + .credit-card-wrapper {
+            border-color: $color-primary;
+
+            .radio-icon {
+                border: 5px solid $color-primary;
+            }
+        }
+    }
+}

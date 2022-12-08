@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>ATA Marketplace</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="card chackout mt-md">
+                <div class="logo">
+                    <a href="/">
+                        <img src="./assets//images/ata-logo.svg" alt="ATA Logo">
+                    </a>
+                </div>
+                <h1>Checkout</h1>
+                <form action="">
+                    <div class="select">
+                        <label for="ata_count">How many ATA's you want to buy?</label>
+                        <select name="ata_count" id="ata_count">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <p class="error-msg">Count error message</p>
+                    </div>
+
+                    <div class="order-summary mt-md">
+                        <h2>Order summary (USD)</h2>
+                        <ul class="summary-details">
+                            <li>
+                                <p>ATA</p>
+                                <span>x2</span>
+                                <strong>$86.00</strong>
+                            </li>
+                            <li class="note">
+                                <p>Payment exculing tax and shippment</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="./checkout.html" class="btn filled primary width-full">Next Step</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

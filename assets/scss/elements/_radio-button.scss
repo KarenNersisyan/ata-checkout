@@ -1,0 +1,19 @@
+.radio-button {
+    input {
+        display: none;
+
+        &:checked + .radio-icon {
+            border: 5px solid $color-primary;
+        }
+    }
+}
+
+.radio-icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: all 0.1s;
+    display: inline-block;
+    border: 2px solid $color-gray;
+}

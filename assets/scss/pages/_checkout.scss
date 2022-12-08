@@ -1,0 +1,36 @@
+.chackout {
+    .logo {
+        width: 100%;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $color-border;
+
+        img {
+            max-width: 150px;
+        }
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    .order-summary {
+        &.mt-md {
+            margin-top: 50px;
+        }
+    }
+
+    .payment-methods {
+        margin-top: 50px;
+
+        ul {
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .btn {
+        margin-top: 25px;
+    }
+}
